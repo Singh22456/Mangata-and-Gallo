@@ -1,0 +1,163 @@
+body{
+    background-color: beige;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    text-align: center; /* Center-align the content within the nav */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    background-color: black;
+  }
+  
+  nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 30px; /* Add spacing between list items */
+    font-size: larger; /* element size*/
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: beige; /* Set link color */
+    padding: 10px 20px; /* Add padding to links */
+    display: inline-block; /* Ensure links behave as blocks */
+  }
+  
+  nav ul li a:hover {
+    background-color: black; /* Change background color on hover */
+  }
+.t1{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+.tt2{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.shop-button {
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #333;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.shop-button:hover {
+    background-color: #555;
+}
+.shop-button1 {
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #333;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: absolute;
+    left: 155px;
+}
+
+.shop-button1:hover {
+    background-color: #555;
+}
+.shop-button2 {
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #333;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: absolute;
+    left: 140px;
+}
+
+.shop-button2:hover {
+    background-color: #555;
+}
+.shop-button3 {
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #333;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: absolute;
+    left: 178px;
+}
+
+.shop-button3:hover {
+    background-color: #555;
+}
+
+.t2{
+    position: absolute;
+    top: 900px;
+    left: 310px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.engagement img{
+    position: absolute;
+    left: 1000px;
+}
+.t3{
+    position: absolute;
+    top:1300px;
+    /*left: 310px;*/
+    font-weight: bold;
+    font-size: larger;
+}
+.anni{
+    position: absolute;
+    top: 1600px;
+}
+.t4{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.f1{
+    background-color: black;
+    position: absolute;
+    top: 2100px;
+}
+.f2{
+    background-color: black;
+    position: absolute;
+    top: 2100px;
+    left: 356px;
+    color: white;
+    font-size: x-large;
+}
+.f3{
+    background-color: black;
+    position: absolute;
+    top: 2100px;
+    left: 820px;
+    color: white;
+    font-size: x-large;
+}
